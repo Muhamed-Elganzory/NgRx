@@ -1,7 +1,7 @@
 import { createAction, props } from '@ngrx/store';
 
-const INCREMENT = '[Counter] Increment';
-const DECREMENT = '[Counter] Decrement';
+const INCREMENT: string = '[Counter] Increment';
+const DECREMENT: string = '[Counter] Decrement';
 
 export const increment= createAction(
   INCREMENT,
