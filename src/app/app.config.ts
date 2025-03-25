@@ -14,5 +14,5 @@ export const appConfig: ApplicationConfig = {
         counter: counterReducer
     }),
     provideEffects([CounterEffects])
-]
+  ]
 };
